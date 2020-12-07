@@ -1,3 +1,224 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 767px){
+  * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  }
+  
+  .main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
 
+  .center {
+    max-width: 95%;
+    padding: 10px;
+
+  }
+  img {
+    max-width: 100%;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    background-color: cornsilk;
+    max-width: 100%;
+  }
+
+  .icons {
+    grid-column-start: 5;
+    align-self: center;
+    justify-self: end;
+}
+
+  .icons .fa {
+    font-size: 22px;
+    color: rgb(216, 115, 56);
+    padding: 10px;
+    border-left:rgb(216, 115, 56) solid 1px;
+  }
+  
+  .first-sec {
+    display: grid;
+    grid-template-rows: repeat(3 ,1fr);
+    height: 500px;
+    padding: 4px;
+    row-gap: 7px;
+  }
+  
+  .first-art {
+    position: relative;
+    background: url(img/first-sec1.png);
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .sec-art {
+    position: relative;
+    background-image: url(img/firsr-sec2.png);
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .third-art {
+    position: relative;
+    background-image: url(img/first-sec3.png);
+    background-image: url(img/first-sec3.png), radial-gradient(to top left, black);
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .first-sec .fa {
+    padding: 2px;
+    color: gray;
+  }
+
+  .first-sec .material-icons {
+    padding: 2px;
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    color: gray;
+  }
+
+  .first-sec span {
+    color: gray;
+  }
+
+  .first-sec p {
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  }
+
+  .art-content {
+  position: relative;
+  bottom: 5px;
+  padding: 5px 5px 5px 10px;
+
+  }
+
+  .gardient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+}
+
+h2 {
+  color: red;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 25px;
+  padding: 9px;
+}
+
+.latest {
+  display: flex;
+  flex-flow: column;
+}
+
+.latest-art {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 15px;
+}
+
+.latest-img {
+  padding: 8px;
+  width: 100%;
+}
+
+.latest-cont {
+  padding: 5px;
+}
+
+.latest-cont span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.fund-links {
+  display: flex;
+  flex-flow: column;
+  padding: 9px;
+}
+
+.fund-links a {
+  text-decoration: none;
+  color: red;
+  padding: 3px;
+}
+
+.fund-container {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.fund-main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1.2fr 1.5fr;
+}
+
+.fund-p {
+  background-color: #f42;
+  font-size: 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  padding: 15px 15px 15px 100px;
+}
+
+.fund-price {
+  background-color: rgba(255, 67, 34, 0.178);
+  padding-left: 100px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.series {
+  color: #aaa;
+  padding: 5px;
+}
+
+.fund-tag {
+  background-color: rgba(248, 90, 62, 0.041);
+  font-size: 18px;
+}
+
+.fa-tag {
+  padding: 10px 5px 5px 15px;
+}
+
+.fa-briefcase{
+  padding: 10px 5px 5px 15px;
+}
+
+.fund-last {
+  background-color: rgba(248, 90, 62, 0.041);
+  padding: 10px;
+  border-top: 1px solid red;
+  font-size: 18px;
+}
+
+.fund-last span {
+  color: #aaa;
+}
+
+.fund-img {
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
