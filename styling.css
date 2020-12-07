@@ -222,3 +222,19 @@ h2 {
   top: 15px;
   left: 15px;
 }
+
+.fund-img2 {
+    width: 80px;
+    position: absolute;
+    top: 310px;
+    left: 15px;
+  }
+
+  .fund-img3 {
+    width: 80px;
+    position: absolute;
+    top: 605px;
+    left: 15px;
+  }
+
+}
