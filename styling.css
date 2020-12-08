@@ -275,6 +275,7 @@ h2 {
     padding-top:15px;
     padding-bottom: 50px;
     padding-left: 10px;
+    width: 495px;
     background-color: antiquewhite;
   }
 
@@ -293,10 +294,14 @@ h2 {
   }
 
   .pic-under-pic{
-    width: 80px;
-    position: absolute;
-    top: 1300px;
+    width: 100px;
+    /*position: absolute;
+    top: 1900px;
     left: 360px;   
+    */
+    float: right;
+    height: 94px;
+    margin-top: -15px;
   }
 
   .list{
