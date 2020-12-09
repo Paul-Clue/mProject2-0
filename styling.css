@@ -1,0 +1,248 @@
+.nav{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90% 5% 5%;
+}
+
+.nav p{
+  margin: 0;
+  border: 1px solid lightgrey;
+}
+
+/*.logo{
+ 
+}
+*/
+
+.icons{
+  color: red;
+  
+}
+
+/* After navigation*/
+
+/*.first-section{
+
+}
+*/
+.articles{
+  height: 150px;
+}
+
+.a1{
+  background-image: url(img/first-sec1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+  
+}
+
+.a2{
+  background-image: url(img/firsr-sec2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.a3{
+  background-image: url(img/first-sec3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.article-text-1{
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  position: relative;
+  top: 50%;
+}
+
+.head   {
+  color: red;
+}
+
+.latest-news{
+  display: grid;
+  grid-template-columns: 25% 70%;
+  column-gap: 5px;
+}
+
+.latest-img{
+  width: 110px;
+}
+
+.latest-text {
+  font-size: 12px;
+}
+
+.latest-text-1{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.latest-text-2{
+  color: gray;
+}
+
+.funding-div{
+  margin-top: -70px;
+}
+
+.funding-a{
+  text-decoration: none;
+  color: red;
+}
+
+.funding p{
+  width: 100%;
+  
+  margin: 0px;
+}
+
+.funding h4{
+  color: white;
+}
+
+.funding-p1{
+  background-color: red;
+  height: 50px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: white;
+}
+
+.funding-p1s{
+  position: relative;
+  top: 12px;
+  left: 85px;
+}
+
+.funding-p2s{
+  position: relative;
+  top: 12px;
+  left: 85px;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.funding-p2ss{
+  position: relative;
+  top: 12px;
+  left: 85px;
+  color: gray;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.funding-p2{
+  background-color: rgb(247, 214, 230);
+  height: 70px;
+}
+
+.material-icons{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.funding-p3s{
+  font-family: sans-serif;
+}
+
+.funding-p4ss{
+  font-family: sans-serif;
+  font-size: 11px;
+  color: gray;
+  margin-left:10px;
+}
+
+.funding-p3{
+  background-color: rgb(250, 233, 241);
+  height: 90px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-bottom:  1px solid rgb(252, 192, 222);
+}
+
+.funding-p4{
+  background-color:rgb(250, 233, 241);;
+  height: 90px;
+}
+
+.funding-p4s{
+  margin-left: 10px;
+}
+
+.funding-img{
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 70px;
+}
+
+.hard{
+  background-image: url(img/first-sec1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+  height: 300px;
+  
+}
+
+.hard-text-1{
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  position: relative;
+  top: 75%;
+}
+
+.hard-p3{
+  background-color: rgb(250, 233, 241);
+  height: 90px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-bottom:  1px solid rgb(252, 192, 222);
+  margin-top: 2px;
+
+}
+
+.hard-p3s{
+  margin-left: 10px;
+  color: red;
+}
+
+.hard-p3ss{
+  margin-left: 10px;
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hard-img{
+  width: 150px;
+  margin-top: -30px;
+  float: right;
+}
+
+.hard-a{
+  text-decoration: none;
+  color: red;
+  font-family: sans-serif;
+  width: 100%;
+  
+}
+
+.hard-li{
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+
+
