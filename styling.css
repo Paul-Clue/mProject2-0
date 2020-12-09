@@ -244,5 +244,40 @@
   padding: 10px;
 }
 
+.footer{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+.align{
+  display: flex;
+  justify-content: center;
+  color: white;
+ }
+
+ .fa{
+   padding-right: 10px;
+ }
+
+ .links{
+   padding-right: 10px;
+   font-family: sans-serif;
+   font-size: 11px;
+ }
+
+.last{
+  color: white;
+  text-align: center;
+}
+
+.last p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 
