@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 500px){
   * {
   padding: 0;
   margin: 0;
@@ -6,13 +6,14 @@
   }
   
   .main {
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
   }
 
   .center {
-    max-width: 95%;
+    max-width: 100%;
     padding: 10px;
 
   }
@@ -23,7 +24,7 @@
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     background-color: cornsilk;
-    max-width: 100%;
+    width: 100%;
   }
 
   .icons {
@@ -42,9 +43,11 @@
   .first-sec {
     display: grid;
     grid-template-rows: repeat(3 ,1fr);
+    width: 500px;
     height: 500px;
     padding: 4px;
     row-gap: 7px;
+    
   }
   
   .first-art {
@@ -121,6 +124,7 @@ h2 {
 }
 
 .latest {
+  width: 100%;
   display: flex;
   flex-flow: column;
 }
@@ -133,11 +137,18 @@ h2 {
 
 .latest-img {
   padding: 8px;
-  width: 100%;
+  width: 60%;
 }
 
 .latest-cont {
   padding: 5px;
+  margin-left: -50px;
+}
+
+.latest-cont p{
+  font-weight: bold;
+  font-size: 12px;
+  width: 70%;
 }
 
 .latest-cont span {
@@ -295,10 +306,6 @@ h2 {
 
   .pic-under-pic{
     width: 100px;
-    /*position: absolute;
-    top: 1900px;
-    left: 360px;   
-    */
     float: right;
     height: 94px;
     margin-top: -15px;
@@ -315,6 +322,69 @@ h2 {
     font-size: 11px;
     text-decoration: none;
     color: black;
+  }
+
+  .bottom{
+    width: 630px;
+  }
+
+  .footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    background-color: black;
+  }
+
+  .footer i{
+    color: white;
+    margin-right: 10px;
+  }
+
+  .align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer p{
+    color: white;
+    margin-top: 25px;
+  }
+
+  .links{
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+
+  .last{
+    flex-direction: column;
+    align-content: center;
+    
+  }
+
+  .last p{
+    font-family: sans-serif;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-content: center;
+    margin-top: 2px;
+    color: lightgrey;
+    
+  }
+
+}
+
+@media only screen and (max-width: 770px){
+  .first-sec{
+    display: grid;
+    
   }
 
 }
