@@ -1,54 +1,50 @@
 
-.funding-div2{
-  display: hidden;
+.funding-div2 {
+  visibility: hidden;
 }
 
-.nav{
+.nav {
   width: 100%;
   display: grid;
   grid-template-columns: 90% 5% 5%;
 }
 
-.nav p{
+.nav p {
   margin: 0;
   border: 1px solid lightgrey;
 }
 
-
-
-.icons{
+.icons {
   color: red;
-  
 }
 
-.articles{
+.articles {
   height: 150px;
 }
 
-.a1{
+.a1 {
   background-image: url(img/first-sec1.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 100%;
   position: relative;
-  
 }
 
-.a2{
+.a2 {
   background-image: url(img/firsr-sec2.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 100%;
 }
 
-.a3{
+.a3 {
   background-image: url(img/first-sec3.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 100%;
 }
 
-.article-text-1{
+.article-text-1 {
   color: white;
   font-family: sans-serif;
   font-size: 12px;
@@ -56,26 +52,26 @@
   top: 50%;
 }
 
-.head   {
+.head  {
   color: red;
 }
 
-.head1{
+.head1 {
   display: visible;
   color: red;
 }
 
-.head2{
+.head2 {
   display: hidden;
 }
 
-.latest-news{
+.latest-news {
   display: grid;
   grid-template-columns: 25% 70%;
   column-gap: 5px;
 }
 
-.latest-img{
+.latest-img {
   width: 110px;
 }
 
@@ -83,35 +79,34 @@
   font-size: 12px;
 }
 
-.latest-text-1{
+.latest-text-1 {
   font-weight: bold;
   font-size: 14px;
 }
 
-.latest-text-2{
+.latest-text-2 {
   color: gray;
 }
 
-.funding-div{
+.funding-div {
   margin-top: -70px;
 }
 
-.funding-a{
+.funding-a {
   text-decoration: none;
   color: red;
 }
 
-.funding p{
+.funding p {
   width: 100%;
-  
   margin: 0px;
 }
 
-.funding h4{
+.funding h4 {
   color: white;
 }
 
-.funding-p1{
+.funding-p1 {
   background-color: red;
   height: 50px;
   font-size: larger;
@@ -120,13 +115,13 @@
   color: white;
 }
 
-.funding-p1s{
+.funding-p1s {
   position: relative;
   top: 12px;
   left: 85px;
 }
 
-.funding-p2s{
+.funding-p2s {
   position: relative;
   top: 12px;
   left: 85px;
@@ -136,7 +131,7 @@
   font-family: sans-serif;
 }
 
-.funding-p2ss{
+.funding-p2ss {
   position: relative;
   top: 12px;
   left: 85px;
@@ -145,28 +140,28 @@
   font-family: sans-serif;
 }
 
-.funding-p2{
+.funding-p2 {
   background-color: rgb(247, 214, 230);
   height: 70px;
 }
 
-.material-icons{
+.material-icons {
   margin-left: 10px;
   margin-top: 10px;
 }
 
-.funding-p3s{
+.funding-p3s {
   font-family: sans-serif;
 }
 
-.funding-p4ss{
+.funding-p4ss {
   font-family: sans-serif;
   font-size: 11px;
   color: gray;
   margin-left:10px;
 }
 
-.funding-p3{
+.funding-p3 {
   background-color: rgb(250, 233, 241);
   height: 90px;
   font-family: sans-serif;
@@ -174,40 +169,38 @@
   border-bottom:  1px solid rgb(252, 192, 222);
 }
 
-.funding-p4{
+.funding-p4 {
   background-color:rgb(250, 233, 241);;
   height: 90px;
 }
 
-.funding-p4s{
+.funding-p4s {
   margin-left: 10px;
 }
 
-.funding-img2{
+.funding-img2 {
   display: visible;
   position: relative;
   width: 60px;
   height: 60px;
   top: 80px;
   left: 5px;
-  
 }
 
-.funding-div2{
+.funding-div2 {
   display: hidden;
 }
 
-.hard{
+.hard {
   background-image: url(img/first-sec1.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 100%;
   position: relative;
   height: 300px;
-  
 }
 
-.hard-text-1{
+.hard-text-1 {
   color: white;
   font-family: sans-serif;
   font-size: 12px;
@@ -215,48 +208,46 @@
   top: 75%;
 }
 
-.hard-p3{
+.hard-p3 {
   background-color: rgb(250, 233, 241);
   height: 90px;
   font-family: sans-serif;
   font-size: 12px;
   border-bottom:  1px solid rgb(252, 192, 222);
   margin-top: 2px;
-
 }
 
-.hard-p3s{
+.hard-p3s {
   margin-left: 10px;
   color: red;
 }
 
-.hard-p3ss{
+.hard-p3ss {
   margin-left: 10px;
   color: red;
   font-size: 15px;
   font-weight: bold;
 }
 
-.hard-img{
+.hard-img {
   width: 150px;
   margin-top: -30px;
   float: right;
 }
 
-.hard-a{
+.hard-a {
   text-decoration: none;
   color: red;
   font-family: sans-serif;
   width: 100%;
-  
 }
 
-.hard-li{
+.hard-li {
   border-bottom: 1px solid gray;
   padding: 10px;
 }
 
-.footer{
+.footer {
   display:flex;
   flex-direction: column;
   align-content: center;
@@ -265,59 +256,54 @@
   background-color: black;
 }
 
-.align{
+.align {
   display: flex;
   justify-content: center;
   color: white;
  }
 
- .fa{
+ .fa {
    padding-right: 10px;
  }
 
- .links{
+ .links {
    padding-right: 10px;
    font-family: sans-serif;
    font-size: 11px;
  }
 
-.last{
+.last {
   color: white;
   text-align: center;
 }
 
-.last p{
+.last p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-
-
-@media (min-width: 425px){
-
-  .nav{
+@media (min-width: 425px) {
+  .nav {
     width: 100%;
     display: grid;
     grid-template-columns: 90% 5% 5%;
   }
   
-  .nav p{
+  .nav p {
     margin: 0;
     border: 1px solid lightgrey;
   }
   
-  
-  
-  .icons{
+  .icons {
     color: red;
     
   }
 
-  .articles{
+  .articles {
     height: 150px;
   }
   
-  .a1{
+  .a1 {
     background-image: url(img/first-sec1.png);
     background-repeat: no-repeat;
     width: 100%;
@@ -325,21 +311,21 @@
     background-size: 100% 100%;
   }
   
-  .a2{
+  .a2 {
     background-image: url(img/firsr-sec2.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
   }
   
-  .a3{
+  .a3 {
     background-image: url(img/first-sec3.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
   }
   
-  .article-text-1{
+  .article-text-1 {
     color: white;
     font-family: sans-serif;
     font-size: 12px;
@@ -347,39 +333,40 @@
     top: 50%;
   }
   
-  .head   {
+  .head  {
     color: red;
   }
   
-  .head1{
+  .head1 {
     display: visible;
     color: red;
   }
   
-  .head2{
+  .head2 {
     display: hidden;
   }
-  .first-section{
+
+  .first-section {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 50% 50% ;
     grid-gap: 6px;
   }
 
-  .a1{
+  .a1 {
     grid-column-start: 1 ;
     grid-column-end: 3 ;
     grid-row-start: 1;
     grid-row-end: 3 ;    
   }
 
-  .latest-news{
+  .latest-news {
     display: grid;
     grid-template-columns: 25% 70%;
     column-gap: 5px;
   }
   
-  .latest-img{
+  .latest-img {
     width: 110px;
   }
   
@@ -387,55 +374,54 @@
     font-size: 12px;
   }
   
-  .latest-text-1{
+  .latest-text-1 {
     font-weight: bold;
     font-size: 14px;
   }
   
-  .latest-text-2{
+  .latest-text-2 {
     color: gray;
   }
 
-  .latest{
+  .latest {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 6px;
   }
 
-  .latest-news{
+  .latest-news {
     display: flex;
     flex-direction: column;
   }
 
-  .latest-img{
+  .latest-img {
     width: 100%;
   }
 
-  .funding{
+  .funding {
     width: 100%;
   }
 
-  .funding-div{
+  .funding-div {
     margin-top: -70px;
   }
   
-  .funding-a{
+  .funding-a {
     text-decoration: none;
     color: red;
   }
   
-  .funding p{
+  .funding p {
     width: 100%;
-    
     margin: 0px;
   }
   
-  .funding h4{
+  .funding h4 {
     color: white;
   }
   
-  .funding-p1{
+  .funding-p1 {
     background-color: red;
     height: 50px;
     font-size: larger;
@@ -444,13 +430,13 @@
     color: white;
   }
   
-  .funding-p1s{
+  .funding-p1s {
     position: relative;
     top: 12px;
     left: 85px;
   }
   
-  .funding-p2s{
+  .funding-p2s {
     position: relative;
     top: 12px;
     left: 85px;
@@ -460,7 +446,7 @@
     font-family: sans-serif;
   }
   
-  .funding-p2ss{
+  .funding-p2ss {
     position: relative;
     top: 12px;
     left: 85px;
@@ -469,28 +455,28 @@
     font-family: sans-serif;
   }
   
-  .funding-p2{
+  .funding-p2 {
     background-color: rgb(247, 214, 230);
     height: 70px;
   }
   
-  .material-icons{
+  .material-icons {
     margin-left: 10px;
     margin-top: 10px;
   }
   
-  .funding-p3s{
+  .funding-p3s {
     font-family: sans-serif;
   }
   
-  .funding-p4ss{
+  .funding-p4ss {
     font-family: sans-serif;
     font-size: 11px;
     color: gray;
     margin-left:10px;
   }
   
-  .funding-p3{
+  .funding-p3 {
     background-color: rgb(250, 233, 241);
     height: 90px;
     font-family: sans-serif;
@@ -498,16 +484,16 @@
     border-bottom:  1px solid rgb(252, 192, 222);
   }
   
-  .funding-p4{
+  .funding-p4 {
     background-color:rgb(250, 233, 241);;
     height: 90px;
   }
   
-  .funding-p4s{
+  .funding-p4s {
     margin-left: 10px;
   }
   
-  .funding-img2{
+  .funding-img2 {
     display: visible;
     position: relative;
     width: 60px;
@@ -517,23 +503,23 @@
     
   }
   
-  .funding-div2{
+  .funding-div2 {
     visibility: hidden;
     width: 0;
   }
 
-  .funding{
+  .funding {
     display: flex;
     flex-direction: row;
   }
 
-  .funding-div{
+  .funding-div {
     margin-top: 0px;
     margin-right: 10px;
   }
 
   
-  .funding-p1{
+  .funding-p1 {
     background-color: red;
     height: 50px;
     font-size: larger;
@@ -541,27 +527,26 @@
     font-family: sans-serif;
     color: white;
   }
-  .funding-img2{
+
+  .funding-img2 {
     display: visible;
     position: relative;
     width: 60px;
     height: 60px;
     top: 80px;
     left: 5px;
-    
   }
 
-  .hard{
+  .hard {
     background-image: url(img/first-sec1.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
     position: relative;
     height: 300px;
-    
   }
-  
-  .hard-text-1{
+
+  .hard-text-1 {
     color: white;
     font-family: sans-serif;
     font-size: 12px;
@@ -569,64 +554,62 @@
     top: 75%;
   }
   
-  .hard-p3{
+  .hard-p3 {
     background-color: rgb(250, 233, 241);
     height: 90px;
     font-family: sans-serif;
     font-size: 12px;
     border-bottom:  1px solid rgb(252, 192, 222);
     margin-top: 2px;
-  
   }
   
-  .hard-p3s{
+  .hard-p3s {
     margin-left: 10px;
     color: red;
   }
   
-  .hard-p3ss{
+  .hard-p3ss {
     margin-left: 10px;
     color: red;
     font-size: 15px;
     font-weight: bold;
   }
   
-  .hard-img{
+  .hard-img {
     width: 150px;
     margin-top: -30px;
     float: right;
   }
   
-  .hard-a{
+  .hard-a {
     text-decoration: none;
     color: red;
     font-family: sans-serif;
     width: 100%;
-    
   }
   
-  .hard-li{
+  .hard-li {
     border-bottom: 1px solid gray;
     padding: 10px;
   }
 
-  .hard-container{
+  .hard-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 6px;
   }
 
-  .head1{
+  .head1 {
     display: hidden;
   }
 
-  .head2{
+  .head2 {
     display: visible;
     color: red;
   }
 
-  .footer{
+  .footer {
     display:flex;
     flex-direction: column;
     align-content: center;
@@ -635,80 +618,75 @@
     background-color: black;
   }
   
-  .align{
+  .align {
     display: flex;
     justify-content: center;
     color: white;
    }
   
-   .fa{
+   .fa {
      padding-right: 10px;
    }
   
-   .links{
+   .links {
      padding-right: 10px;
      font-family: sans-serif;
      font-size: 11px;
    }
   
-  .last{
+  .last {
     color: white;
     text-align: center;
   }
   
-  .last p{
+  .last p {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
-
 }
 
-@media (min-width: 769px){
-
-  
-  .latest{
+@media (min-width: 769px) {
+  .latest {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 6px;
   }
 
-  .latest-news{
+  .latest-news {
     display: flex;
     flex-direction: column;
   }
 
-  .latest-img{
+  .latest-img {
     width: 100%;
   }
 
-  .funding{
+  .funding {
     display: flex;
     flex-direction: row;
   }
 
-  .funding-div{
+  .funding-div {
     margin-top: 0px;
     margin-right: 10px;
     width: 25%;
   }
 
-  .funding-img{
+  .funding-img {
     display: none;
   }
 
-  .funding-img2{
+  .funding-img2 {
     display: visible;
     position: relative;
     width: 60px;
     height: 60px;
     top: 80px;
     left: 5px;
-    
   }
 
-  .funding-img2{
+  .funding-img2 {
     display: visible;
   }
     
@@ -717,7 +695,7 @@
     width: 25%;
   }
 
-  .footer{
+  .footer {
     display:flex;
     flex-direction: column;
     align-content: center;
@@ -726,33 +704,31 @@
     background-color: black;
   }
   
-  .align{
+  .align {
     display: flex;
     justify-content: center;
     color: white;
    }
   
-   .fa{
+   .fa {
      padding-right: 10px;
    }
   
-   .links{
+   .links {
      padding-right: 10px;
      font-family: sans-serif;
      font-size: 11px;
    }
   
-  .last{
+  .last {
     color: white;
     text-align: center;
   }
   
-  .last p{
+  .last p {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
-
 }
 
 
