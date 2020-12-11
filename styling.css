@@ -1,10 +1,10 @@
 
-html, body {
+html body {
   overflow-x: hidden;
   width: 100%;
 }
 
-.wrapper{
+.wrapper {
   overflow-x: hidden;
   width: 100%;
   position: relative;
@@ -21,11 +21,11 @@ html, body {
   height: 0;
 }
 
-.ul-left{
+.ul-left {
   visibility: hidden;
 }
 
-.nav{
+.nav {
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,22 +37,22 @@ html, body {
   background-color: white;
 }
 
-.logo{
+.logo {
   margin-left: -15px;
 }
 
-.nav p{
+.nav p {
   margin-left: auto;
   color: red;
   margin-top: 0;
 }
 
-.span2{
+.span2 {
   border-left: 1px solid  rgb(173, 168, 168);
   padding-right: 10px;
 }
 
-.span1{
+.span1 {
   padding-left: 60px;
   margin-right: -12px;
 }
@@ -102,7 +102,8 @@ html, body {
 .article-text-1 .material-icons {
   font-size: 17px;
   font-weight: bold;
-  margin-top: -5px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .article-text-1 .article-text-2 {
@@ -116,7 +117,6 @@ html, body {
   color: red;
   margin-top: 50px;
 }
-
 
 .head1 {
   visibility: visible;
@@ -222,11 +222,6 @@ html, body {
 .funding-p2 {
   background-color: rgb(247, 214, 230);
   height: 70px;
-}
-
-.material-icons {
-  margin-left: 10px;
-  margin-top: 10px;
 }
 
 .funding-p3s {
@@ -368,15 +363,17 @@ html, body {
     width: 95%;
     background-color: black;
     position: fixed;
-    top:0;
+    top: 0;
     margin-left: 30px;
   }
 
   .ul-left {
     visibility: visible;
+    display: inline;
+    float: left;
   }
 
-  .nav0 li{
+  .nav0 li {
     display: inline;
     font-size: 15px;
     float: left;
@@ -390,11 +387,6 @@ html, body {
   .ul-right {
     display: inline;
     float: right;
-    }
-
-  .ul-left {
-    display: inline;
-    float: left;
   }
 
   .white li {
@@ -413,7 +405,7 @@ html, body {
   }
 
   .nav {
-    top:35px;
+    top: 35px;
   }
 
   .logo {
@@ -428,7 +420,7 @@ html, body {
     visibility: hidden;
   }
 
-  .span1{
+  .span1 {
     color: gray;
   }
 
@@ -478,13 +470,13 @@ html, body {
     position: relative;
     top: 50%;
   }
-  
+
   .article-text-1 .material-icons {
     font-size: 17px;
     font-weight: bold;
     margin-top: -5px;
   }
-  
+
   .article-text-1 .article-text-2 {
     font-weight: bolder;
     font-size: 15px;
@@ -508,7 +500,7 @@ html, body {
   .head2 {
     visibility: visible;
     color: red;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .first-section {
