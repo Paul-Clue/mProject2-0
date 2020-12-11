@@ -21,6 +21,10 @@ html, body {
   height: 0;
 }
 
+.ul-left{
+  visibility: hidden;
+}
+
 .nav{
   position: fixed;
   top: 0;
@@ -368,9 +372,13 @@ html, body {
     margin-left: 30px;
   }
 
+  .ul-left {
+    visibility: visible;
+  }
+
   .nav0 li{
     display: inline;
-    font-size: 12px;
+    font-size: 15px;
     float: left;
   }
 
@@ -389,8 +397,22 @@ html, body {
     float: left;
   }
 
+  .white li {
+    display: inline;
+    float: left;
+  }
+
+  .white a {
+    text-decoration: none;
+    color: rgb(185, 184, 184);
+    font-size: 15px;
+  }
+
+  .white .move {
+    margin-left: 30px;
+  }
+
   .nav {
-    /*position: relative;*/
     top:35px;
   }
 
@@ -424,6 +446,9 @@ html, body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
   }
 
   .a2 {
@@ -431,6 +456,9 @@ html, body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
   }
 
   .a3 {
@@ -438,6 +466,9 @@ html, body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
   }
 
   .article-text-1 {
@@ -447,9 +478,26 @@ html, body {
     position: relative;
     top: 50%;
   }
+  
+  .article-text-1 .material-icons {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -5px;
+  }
+  
+  .article-text-1 .article-text-2 {
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: -5px;
+  }
+
+  .first .article-text-2 {
+    font-size: 34px;
+  }
 
   .head {
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .head1 {
@@ -459,7 +507,8 @@ html, body {
 
   .head2 {
     visibility: visible;
-    color: rgb(87, 84, 84);
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
   }
 
   .first-section {
@@ -475,7 +524,8 @@ html, body {
   }
 
   .latest-img {
-    width: 100%;
+    width: 250px;
+    height: 120px;
   }
 
   .latest-text {
@@ -704,9 +754,26 @@ html, body {
   }
 }
 
-@media (min-width: 769px) {
-  .logo2 {
+@media (min-width: 1030px) {
+  .logo {
     display: none;
+  }
+
+  .nav0 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .white .move {
+    margin-left: 0;
+  }
+
+  .head {
+    margin-right: 0;
+    width: 40%;
+    position: relative;
+    margin-top: 100px;
+    top: 60px;
   }
 
   .latest {
@@ -723,6 +790,16 @@ html, body {
 
   .latest-img {
     width: 100%;
+  }
+
+  .free-list li {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+  }
+
+  .free-list a {
+    font-size: 15px;
   }
 
   .funding {
@@ -777,6 +854,13 @@ html, body {
     padding-right: 10px;
     font-family: sans-serif;
     font-size: 11px;
+  }
+
+  .hard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 6px;
   }
 
   .last {
