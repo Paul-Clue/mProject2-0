@@ -747,7 +747,7 @@ html body {
 }
 
 @media (min-width: 1030px) {
-  .head3{
+  .head3 {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
     margin-top: 20px;
