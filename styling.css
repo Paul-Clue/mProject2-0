@@ -103,7 +103,7 @@ html body {
   font-size: 17px;
   font-weight: bold;
   margin-left: 10px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .article-text-1 .article-text-2 {
@@ -361,6 +361,8 @@ html body {
 
 .last p {
   color: gray;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .fa {
@@ -378,11 +380,6 @@ html body {
   color: white;
   text-align: center;
   margin-top: 50px;
-}
-
-.last p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 @media (min-width: 750px) {
@@ -553,8 +550,7 @@ html body {
   }
 
   .latest-text {
-    font-size: 12px;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 12px;
     font-family: sans-serif;
   }
