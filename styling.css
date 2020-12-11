@@ -155,12 +155,12 @@ html body {
 .latest-img {
   width: 75px;
   height: 60px;
-  margin-right: 0;
+  margin-right: 2px;
   margin-bottom: 2px;
 }
 
 .latest-text {
-  margin-left: -50px;
+  margin-left: 2px;
   font-size: 12px;
   font-family: sans-serif;
 }
@@ -830,7 +830,8 @@ html body {
   }
 
   .latest-img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
   }
 
   .free-list li {
