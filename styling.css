@@ -10,6 +10,12 @@ html body {
   position: relative;
 }
 
+.big-logo {
+  width: 60%;
+  position: absolute;
+  top: 60px;
+}
+
 .nav0 {
   visibility: hidden;
   height: 0;
