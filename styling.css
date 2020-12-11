@@ -14,6 +14,7 @@ html body {
   width: 60%;
   position: absolute;
   top: 50px;
+  visibility: hidden;
 }
 
 .nav0 {
@@ -398,6 +399,10 @@ html body {
     position: fixed;
     top: 0;
     margin-left: 30px;
+  }
+
+  .big-logo {
+    visibility: hidden;
   }
 
   .ul-left {
@@ -794,6 +799,10 @@ html body {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
     margin-top: 20px;
+  }
+
+  .big-logo {
+    visibility: visible;
   }
 
   .logo {
